@@ -4,7 +4,6 @@ import { GEO_API_URL, geoApiOptions } from '../../api';
 const axios = require('axios');
 
 const Search = ({ onSearchChange }) => {
-    console.log("Entered Search");
     const [search, setSearch] = useState('');
 
     const loadOptions = (search) => {
